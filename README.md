@@ -32,4 +32,4 @@ Qual o principal objetivo do seu website
 
 Você pretende que o site esteja pronto em torno de: (dias)
 180 dias.
-<img width="755" height="749" alt="image" src="https://github.com/user-attachments/assets/f1d179c8-56a0-4f48-9291-9655dfa1b023" />
+
