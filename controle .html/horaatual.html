@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hora Atual</title>
+</head>
+<body>
+  <h1>Hora Atual</h1>
+  <p id="hora"></p>
+  <script>
+    function atualizarHora() {
+      const agora = new Date();
+      const horaFormatada = agora.toLocaleTimeString();
+      document.getElementById("hora").textContent = horaFormatada;
+    }
+    atualizarHora();
+    setInterval(atualizarHora, 1000);
+  </script>
+</body>
+</html>

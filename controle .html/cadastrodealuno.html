@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Cadastro de Alunos</h1>
+<form action="#" method="post">
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <table border="1">
+            <tr>
+                <td>Matrícula:</td>
+                <td><input type="number" name="matricula" id="matricula" placeholder="123" required></td>
+            </tr>
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" name="nome" id="nome" placeholder="seu nome" required></td>
+            </tr>
+            <tr>
+                <td>Data de nascimento:</td>
+                <td><input type="date" name="data_nascimento" id="data_nascimento"></td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td>
+                    <input type="radio" value="masculino" name="sexo" id="masculino"><label for="masculino">Masculino</label>
+                    <input type="radio" value="feminino" name="sexo" id="feminino"><label for="feminino">Feminino</label>
+                </td>
+            </tr>
+        </table>
+        <input type="reset" value="Limpar"/>
+        <input type="submit" value="Salvar"/>
+    </fieldset>
+</form>
+</body>
+</html>

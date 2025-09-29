@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<SCRIPT>
+
+function funcao1(){
+  alert("Usando Função!")
+}
+function funcao2(msg){
+document.getElementById("aqui").innerHTML=msg;
+}
+</SCRIPT>
+</head>
+<body>
+    <h1>usando funções </h1>
+    <button onclick="funcao1()">escreve numa janela!</button>
+    <button onclick="funcao2('usando funcao 2!')">escreve aqui</button>
+    <p id ="aqui"></p>
+</body>
+</html>
