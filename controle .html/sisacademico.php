@@ -68,7 +68,7 @@
               <a class="nav-link" href="https://jocile.com/programador-web/" target="_blank">Aulas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/jocile/controle-academico" target="_blank">GitHub</a>
+              <a class="nav-link" href="https://github.com/familia2030/familia20/tree/main/controle%20.html" target="_blank">GitHub</a>
             </li>
           </ul>
         </div>

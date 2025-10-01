@@ -32,6 +32,8 @@
         <div class="input-group mb-3">
      <label for="estado">estado:</label>
     <select name="estado" id="estado">
+            <option value="">Selecione o Estado</option>
+            <php 
                       
           
       
